@@ -33,16 +33,20 @@
 
 @media (max-width: 500px) {
   .todo {
-    height: 50%;
+    height: 90%;
     width: 40%;
   }
 
-  .todo input {
-    height: 50%;
-    width: 40%;
+   .todo input {
+    width: 70%;
+  margin-left: 25px;
   }
 
   .todo button {
     margin-left: 50px;
+  } 
+
+  .todo h1{
+    margin-left: 25px ;
   }
 }

@@ -12,3 +12,10 @@
 .toDoList::-webkit-scrollbar {
     display: none;
   }
+
+  @media (max-width:500px){
+    .toDoList{
+      height: 65%;
+      width: 90%;
+    }
+  }

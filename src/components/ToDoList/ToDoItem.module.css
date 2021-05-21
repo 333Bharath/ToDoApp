@@ -50,3 +50,11 @@
   float: right;
   width: 30%;
 }
+
+@media (max-width: 500px) {
+  .toDoItem {
+    height: 40px;
+
+  }
+
+}
