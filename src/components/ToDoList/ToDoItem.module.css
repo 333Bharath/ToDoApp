@@ -2,13 +2,18 @@
   margin: 20px auto;
   padding: 5px;
   background-color: rgb(247, 236, 176);
-  width: 80%;
-  height: 60px;
+  min-width: 80%;
+  min-height: 60px;
   border-radius: 10px;
   text-align: center;
   animation-name: slider;
   animation-duration: 1s;
   font-weight: bold;
+  /* flex-wrap: wrap; */
+  word-break: break-all;
+  white-space: pre-wrap;
+  /* overflow: hidden;
+  text-overflow: ellipsis; */
 }
 
 .toDoItem:hover {
@@ -31,8 +36,15 @@
 }
 
 .left {
+  margin-left: 0rem;
   float: left;
   width: 5%;
+}
+
+.left input {
+  width: 15px;
+  height: 15px;
+  border-color: black;
 }
 
 .middle {
@@ -54,7 +66,5 @@
 @media (max-width: 500px) {
   .toDoItem {
     height: 40px;
-
   }
-
 }
